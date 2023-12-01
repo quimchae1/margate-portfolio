@@ -19,11 +19,6 @@
             padding: 20px;
         }
 
-        #sparkle {
-            width: 100%;
-            height: auto;
-        }
-
         #content {
             padding: 20px;
             text-align: center;
