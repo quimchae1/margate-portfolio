@@ -56,7 +56,7 @@
         <p><em>Welcome to Gossip from E! Your one and only source from the life of the Upper Class from Manila.</em></p>
 
         <!-- Add Manila City image -->
-        <img src="\Users\Administrator\Pictures\manila city1.jpg" alt="Manila City">
+        <img src="![manila city](https://github.com/quimchae1/margate-portfolio/assets/152137458/095d5dfd-fd98-4c10-81cf-bdef0be3070e)" alt="Manila City">
 
         <!-- Tip Section -->
         <div id="tip-section">
