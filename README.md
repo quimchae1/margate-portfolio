@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gossip from E</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #000, #ff99cc);
+            color: #ff99cc;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(to bottom right, #000, #ff99cc);
+            text-align: center;
+            padding: 20px;
+        }
+
+        #sparkle {
+            width: 100%;
+            height: auto;
+        }
+
+        #content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #tip-section {
+            float: right;
+            clear: right;
+            margin-top: 20px;
+        }
+
+        #tip-box, #missed-invitation-box {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to bottom right, #000, #ff99cc);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gossip from E</h1>
+    </header>
+
+    <div id="content">
+
+        <h2>Latest Gossips</h2>
+        <p><em>Welcome to Gossip from E! Your one and only source from the life of the Upper Class from Manila.</em></p>
+
+        <!-- Add Manila City image -->
+        <img src="\Users\Administrator\Pictures\manila city1.jpg" alt="Manila City">
+
+        <!-- Tip Section -->
+        <div id="tip-section">
+            <div id="tip-box">
+                <h3>Send a Tip</h3>
+                <form action="submit_tip.php" method="post">
+                    <label for="tip">Your Tip:</label>
+                    <textarea id="tip" name="tip" rows="4" cols="50" required></textarea><br>
+
+                    <input type="submit" value="Submit Tip">
+                </form>
+            </div>
+
+            <div id="missed-invitation-box">
+                <p>Your invitation was probably lost in the mall. See what you missed <a href="#" style="color: #ff99cc; text-decoration: underline;">CLICK HERE!</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Gossip from E. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
